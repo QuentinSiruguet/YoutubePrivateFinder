@@ -30,11 +30,11 @@ void saveVideoID(std::string video_id)
 	std::ofstream file("result.txt", std::ios_base::app);
 	file << video_id << std::endl;
 	file.close();
-	std::stringstream sendDatabase;
-	sendDatabase << "http://ghyfodia.fr/YoutubePrivateFinder_add_video.php?id=" << video_id << "&api_key=" << API_KEY;
-	curlpp::Easy httpDatabase;
-	httpDatabase.setOpt<curlpp::options::Url>(sendDatabase.str());
-	sendDatabase << httpDatabase;
+	//std::stringstream sendDatabase;
+	//sendDatabase << "OLD" << video_id << "&api_key=" << API_KEY;
+	//curlpp::Easy httpDatabase;
+	//httpDatabase.setOpt<curlpp::options::Url>(sendDatabase.str());
+	//sendDatabase << httpDatabase;
 }
 
 void tryVideoID(std::string video_id)
