@@ -9,5 +9,5 @@ In 2017, more than 7 billion videos were on Youtube, so there is around 1 on 10 
  - Goal : Find a video.
  
  
- Could be updated and added to a middleware system for volunteer computing like BOINC.
+ Could be updated and added to a middleware system for volunteer computing like BOINC. (WIP)
  
