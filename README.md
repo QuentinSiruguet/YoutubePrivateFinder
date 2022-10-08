@@ -1,3 +1,9 @@
+# DEPRECATED
+
+Rework is done in this rep: https://github.com/QuentinSiruguet/YoutubeFinder.
+
+
+
 # YoutubePrivateFinder
 Each youtube video contain a unique ID :
 ![Video_ID](/image.png)
